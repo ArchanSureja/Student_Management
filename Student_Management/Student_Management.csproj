@@ -67,6 +67,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\University.mdf" />
+    <Content Include="App_Data\University_log.ldf">
+      <DependentUpon>University.mdf</DependentUpon>
+    </Content>
+    <Content Include="css\signup.css" />
     <Content Include="student_sign_up.aspx" />
     <Content Include="Web.config" />
     <Content Include="home.aspx" />
